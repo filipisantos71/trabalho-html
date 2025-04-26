@@ -1,4 +1,4 @@
-html, body {
+html, body { /* Alinhamento, fontes, bordas e cores */
     height: 100%;
     margin: 0;
     padding: 0;
@@ -11,19 +11,13 @@ html, body {
     flex-direction: column;
 }
 
-body {
-    display: flex;
-    flex-direction: column;
-
-}
-
-h1, p {
+h1, p { /* Delimitação do bloco de texto e adição de borda de 6 pixels */
     display: inline-block;
     background-color: #ecf0f1;
     border-radius: 6px;
 }
 
-img.foto, img.foto2010, .uninterFoto {
+img.foto, img.foto2010, .uninterFoto { /* Customização sobre tamanhos e bordas das fotos */
     border-radius: 6px;
     width: 300px;
     display: block;
@@ -35,7 +29,7 @@ li {
     background-color: #d4af37;    
 }
 
-/* Rodapé: Os links ficam na parte de baixo da página, mas não fixos */
+/* Rodapé */
 footer {
     margin-top: auto;  /* Empurra o rodapé para o final da tela */
     padding: 20px;
@@ -45,7 +39,7 @@ footer {
 .links {
     display: flex;
     justify-content: space-between;
-    width: 10;  /* Deixa os links com a largura conforme o conteúdo */
+    width: 10;  /*  Largura  */
     padding: 10px 20px;  /* Espaçamento interno */
     background-color: #ecf0f1;
     border-radius: 6px;
@@ -61,7 +55,7 @@ footer {
     width: 33%;  /* Tamanho proporcional dos links */
 }
 
-label{
+label{  /* Alinhamento das caixas de envio de mensagem, email e nome */
     display: inline-block;
     text-align: center;
     width: 100%;
